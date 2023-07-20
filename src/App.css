@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 5px;
+  background: #fff7e0;
+}
+
+.container {
+  /* height: 650px; */
+  padding: 1rem 5rem;
+  background: #c6c6c6;
+  border-radius: 3px;
+}
+
+.test-title {
+  padding: 2rem 0;
+  background: #ffe336;
+
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+}
+
+/* START */
+
+.start-button {
+  width: 100%;
+  white-space: normal;
+}
+
+.start-button:hover {
+  background: #e5cc76;
+}
+
+.start-button:active {
+  background: #ffe336;
+}
+
+/* TEST-WRAPPER */
+
+.test-name,
+.start-button {
+  padding: 3rem 6rem;
+  margin-bottom: 1rem;
+  background: #ffe336;
+  font-size: 5rem;
+  border: none;
+  text-align: center;
+
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+}
+
+.card-wrapper {
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.test-wrapper,
+.result-wrapper {
+  background: #e3e3e3;
+  padding: 2rem;
+  margin: 1rem auto;
+  height: 650px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.test-wrapper span {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  color: red;
+  padding-right: 20px;
+}
+
+.question-inputs {
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+label {
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+.question-button-next,
+.result-button {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  background: #ffe336;
+  border: 1px solid #d1aa29;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.question-button-next:hover {
+  background: #e5cc76;
+}
+
+.question-button-next:active {
+  background: #ffe336;
+}
+
+/* RESULT */
+
+.result-wrapper {
+  text-align: center;
+}
+
+.result-title {
+  padding: 1rem 0 0 0;
+
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.result-count {
+  background: #ffffff;
+  font-size: 7rem;
+  color: #000000;
+  border-radius: 3px;
+}
+
+.result-button:hover {
+  background: #e5cc76;
+}
+
+.result-button:active {
+  background: #ffe336;
+}
